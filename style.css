@@ -1,0 +1,142 @@
+html {
+  overflow: hidden;
+  white-space: normal;
+}
+
+body {
+  background-size: cover;
+  background-image: url('Images/wool-2197757_1920.jpg');
+  white-space: normal;
+
+}
+
+#brand {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 6em;
+  color: #e5e3e3;
+  text-shadow: 12px 10px 10px black;
+  margin-left: .75em;
+}
+
+#quick-info {
+  font-size: 3em;
+  color: #e5e3e3;
+  font-family: 'Open Sans';
+  align-items: center;
+  margin-left: 8.25em;
+}
+
+#nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 8em;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 15em;
+}
+
+.main {
+  display: flex;
+  background-color: rgba(1, 1, 1, 0.3);
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+
+}
+
+.nav-item {
+  font-size: 3.5em;
+  overflow: hidden;
+  border: 3px solid white;
+  width: 500px;
+  margin-top: .25em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fcfcfc;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
+/* Media Query */
+
+@media screen and (max-width: 1200px){
+  #nav {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 200px;
+  }
+
+  #brand {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 5.5em;
+    color: #e5e3e3;
+    text-shadow: 12px 10px 10px black;
+    padding-right: 176;
+    margin-left: 66;
+  }
+
+  #quick-info {
+    font-size: 3em;
+    color: #e5e3e3;
+    font-family: 'Open Sans';
+    align-items: center;
+    margin-left: 75;
+    padding-right: 5em;
+    margin-top: 2em;
+  }
+
+  #nav-a {
+    margin-bottom: 1em;
+  }
+
+  #nav-c {
+    margin-bottom: .5em;
+  }
+
+  #nav-b {
+    margin-bottom: 1em;
+  }
+
+  .nav-item {
+    font-size: 2em;
+    overflow: visible;
+    border: 3px solid white;
+    width: 8em;
+
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: #fcfcfc;
+    overflow: hidden;
+    text-align: center;
+  }
+
+  .main-section {
+    position: absolute;
+    top: 10em;
+    left: 8em;
+  }
+
+  .main {
+    display: flex;
+    background-color: rgba(1, 1, 1, 0.3);
+  }
+
+}
